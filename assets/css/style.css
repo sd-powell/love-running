@@ -3,32 +3,32 @@
 
 /* Asterix wildcard selector to veride defualt styles added by the browser */
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  color: #3a3a3a;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
@@ -49,7 +49,7 @@ h1 {
   list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
   margin-bottom: 1em;
 }
 
@@ -84,19 +84,20 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
+  background-color: lightblue;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    background-color: orange;
+  background-color: orange;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
   /* Header */
   nav {
     display: block;
@@ -110,7 +111,7 @@ footer {
     display: flex;
   }
 
-  #menu > li {
+  #menu>li {
     padding-left: 1rem;
   }
 
@@ -118,4 +119,15 @@ footer {
     display: none;
   }
 
+  #logo {
+    font-size: 200%;
+    line-height:  75px;
+    margin: 0 0.5 rem;
+  }
+
+  /* Main content */
+main {
+  /* Push main content down to accomodate larger header */
+  margin-top:  79px;
+}
 }
