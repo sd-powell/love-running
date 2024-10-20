@@ -119,6 +119,15 @@ main {
   margin: auto;
 }
 
+#reasons h2 {
+  /* Enlarge header and center text */
+  font-size: 280%;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
