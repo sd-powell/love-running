@@ -123,9 +123,7 @@ main {
   /* Enlarge header and center text */
   font-size: 280%;
   text-align: center;
-  /* padding: 0 20px; */
   margin-bottom: 20px;
-  /* margin-top: 20px; */
 }
 
 #benefits-physical > div, #benefits-mental > div {
@@ -139,7 +137,7 @@ main {
   padding: 0 20px;
 }
 
-hr {
+#benefits hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
