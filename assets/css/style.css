@@ -133,6 +133,12 @@ main {
   margin-bottom: 20px;
 }
 
+#benefits p {
+  /* Add padding to inset text in paragraph */
+  padding: 0 20px;
+}
+
+
 /* Footer */
 #social-networks {
   text-align: center;
