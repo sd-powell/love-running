@@ -243,3 +243,32 @@ main {
 }
 
 }
+
+/* Large devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  /* Reasons section */
+  #benefits {   
+    display: flex;
+    flex-direction: row;
+  }
+
+  #benefits > div {
+    flex: 1;
+  }
+
+  #benefits-image {
+    order: 0;
+  }
+
+  #benefits-mental {
+    order: 1;
+  }
+
+  #benefits-mental > div {
+    align-self: flex-start;
+  }
+
+  #benefits-physical > div {
+    align-self: flex-end;
+  }
+}
