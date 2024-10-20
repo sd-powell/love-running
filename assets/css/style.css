@@ -113,6 +113,12 @@ main {
   color: #ffffff;
 }
 
+#reasons {
+  /* Add margins to div */
+  width: 90%;
+  margin: auto;
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
