@@ -116,20 +116,21 @@ main {
 #reasons {
   /* Add margins to div */
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 #reasons h2 {
   /* Enlarge header and center text */
   font-size: 280%;
   text-align: center;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   margin-bottom: 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
-#benefits div {
+#benefits-physical > div, #benefits-mental > div {
   /* Add 20px margin to bottom of each div */
+  line-height: 20px;
   margin-bottom: 20px;
 }
 
@@ -138,7 +139,7 @@ main {
   padding: 0 20px;
 }
 
-#benefits hr {
+hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
