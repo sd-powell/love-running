@@ -94,7 +94,7 @@ main {
   flex: 1 0 auto;
   /* Add margin at the top to prevent content from being covered by the header */
   margin-top: 47px;
-  /* Enable flex properites for child elements */
+  /* Enable flex properties for child elements */
   display: flex;
   flex-direction: column;
 }
@@ -225,7 +225,7 @@ main {
 
 /* Sign up */
 #signup {
-  background: url('../images/signup-image.webp') no-repeat;
+  background: url('../images/signup-image.webp');
   background-size: cover;
   background-position: 75%;
   padding: 20px 10% 0 10%;
